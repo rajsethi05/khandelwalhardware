@@ -15,7 +15,7 @@
     "styled-components": "^6.1.12",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://rajsethi05.github.io/react-only",
+  "homepage": "https://rajsethi05.github.io",
   "scripts": {
     "build": "react-scripts build",
     "test": "react-scripts test",

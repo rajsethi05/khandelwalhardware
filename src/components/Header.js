@@ -12,7 +12,7 @@ function Header() {
         <a href="/" className="brand">KHANDELWAL</a>
         <div className="navs">
         <div className="nav-item">
-          <img src="icons/phone.svg" alt="phone" className="icons"/>
+          <img src="/icons/phone.svg" alt="phone" className="icons"/>
           <a href="tel:+91 9962049900" className="icon-text">+91-9962049900</a>
         </div>
         <div className="nav-item">
