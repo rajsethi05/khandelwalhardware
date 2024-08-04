@@ -31,7 +31,14 @@ function Slideshow() {
 
     return (
         <div className="slideshow-container">
-          
+          {/* <div className="slideshowDots slideshow-container"><div className="slideshowDot" ></div></div> */}
+          <div className="slideshowDots">
+            {
+              images.map((_,idx) => (
+                <div key={idx} className={`slideshowDot ${index===idx?"active": ""} slideshow-container`} onClick={()=>setIndex(idx)}></div>
+              ))
+            }
+          </div>
           <div className="slideshowSlider"
           style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
           >
@@ -39,15 +46,10 @@ function Slideshow() {
               <img className="img-spec" src={image} key={index}></img>
               // <div className="slide" key={index} style={{ color: image }}></div>
             ))}
+            
             </div>
-            {/* <div className="slideshowDots"><div className="slideshowDot" ></div></div> */}
-            <div className="slideshowDots">
-            {
-              images.map((_,idx) => (
-                <div key={idx} className={`slideshowDot ${index===idx?"active": ""}`} onClick={()=>setIndex(idx)}></div>
-              ))
-            }
-          </div>
+            
+            
         </div>
         // <div>Hello</div>
 
