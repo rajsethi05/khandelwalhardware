@@ -2,7 +2,7 @@
 import React from "react";
 import Header from "./components/Header";
 import {
-	BrowserRouter as Router,
+	HashRouter,
 	Routes,
 	Route,
 } from "react-router-dom";
@@ -14,12 +14,12 @@ import Contact from "./pages/contact";
 
 function App() {
 	return (
-		<Router>
+		<HashRouter>
       <Header />
 			<Routes>
 			<Route exact path="/" element={<Home />} />
 			</Routes>
-		</Router>
+		</HashRouter>
 	);
 }
 
