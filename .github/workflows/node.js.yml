@@ -8,8 +8,14 @@ on:
     branches: ["master"]
   pull_request:
     branches: ["master"]
+  workflow_dispatch:
 env:
   CI: false
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
   build:
