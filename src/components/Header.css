@@ -1,7 +1,6 @@
 .header{
     background-color: #000;
     position: fixed;
-    /* height:75px; */
     z-index: 1;
     width: 100%;
     padding: 5px;
@@ -9,7 +8,6 @@
 }
 .flex-container {
     display: flex;
-    /* position: sticky; */
 }
 
 .brand{
@@ -36,9 +34,6 @@
 .navs{
     display: flex;
     margin-left: 250px;
-    /* gap: 10px; */
-    /* padding: 5px; */
-    /* background-color: #fc3e3e; */
 }
 
 .nav-item{
@@ -48,9 +43,6 @@
 
 .icons{
     height: 20px;
-    /* margin-left: 10px; */
-    /* display: flex; */
-    /* margin-top: 15px; */
     padding: 15px;
 }
 
@@ -58,8 +50,6 @@
     color: #a6a6a6;
     font-weight: bold;
     font-size: 20px;
-    /* display: flex; */
     margin-top: 15px;
-    /* padding-left: 15px; */
     text-decoration: none;
 }
