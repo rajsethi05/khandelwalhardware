@@ -10,7 +10,7 @@ function Header() {
           alt="Logo"
           className="logo"
         ></img>
-        <a href="/" className="brand">KHANDELWAL</a>
+        <a href="/" className="brand">KHANDELWAL1</a>
         <div className="navs">
         <div className="nav-item">
           <img src="icons/phone.svg" alt="phone" className="icons"/>
