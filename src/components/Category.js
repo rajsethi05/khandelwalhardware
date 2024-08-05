@@ -1,31 +1,21 @@
 import React from "react";
 import "./Category.css";
+import data from "../resources/categories.json"
+import { Link } from "react-router-dom";
 
 function Categories(){
-    const category_images=[
-        "categories/bath_tubs.png",
-        "categories/cisterns.jpeg",
-        "categories/faucets.jpg",
-        "categories/shower_enclosures.jpeg",
-        "categories/showers.jpeg",
-        "categories/urinals.jpg",
-        "categories/wash_basins.jpg",
-        "categories/water_closets.jpg"
-    ]
     return(
         <div>
-            {/* <h1 className="heading">Our Range</h1> */}
-            <img className="heading" src="icons/hindware.png"></img>
+            <img className="heading" src="icons/hindware.png" alt="hindware"></img>
             <div className="line"/>
             <div>
-                {category_images.map((image,idx) => (
-                    <div className="category">
-                    <img src={image} alt={idx} key={idx} className="img" />
-                    <h3 className="txt">Bath Tubs</h3>
-                    <p className="txt">Choosing the best basin for your bathroom can ​be an uphill task, especially with our wide range ​of products. With our wide range of basins, now ​you can choose something that fits your ​requirements and needs to perfection.</p>
-                    </div>
+                {data.map((item) => (
+                    <Link className="category" to={item.page}>
+                    <img src={item.src} alt="1" key="1" className="img" />
+                    <h3 className="txt">{item.title}</h3>
+                    <p className="txt">{item.desc}</p>
+                    </Link>
                 ))}
-                
             </div>
         </div>
     )
