@@ -14,7 +14,7 @@ function App() {
 		<HashRouter>
 			<Routes>
 				<Route exact path="/" element={<Home />} />
-				<Route exact path="/bathtubs" element={<Bathtubs />} />
+				<Route exact path="/products" element={<Bathtubs />} />
 			</Routes>
 		</HashRouter>
 	);
