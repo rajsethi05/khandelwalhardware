@@ -33,7 +33,9 @@
 
 .navs{
     display: flex;
-    margin-left: 250px;
+    align-items: end;
+    margin-left: 275px;
+
 }
 
 .nav-item{
