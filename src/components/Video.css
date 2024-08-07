@@ -1,6 +1,6 @@
 .btn-div{
     text-align: center;
-    padding: 10px;
+    padding: 20px;
 }
 .video-button{
     background: linear-gradient(180deg,#d9a63d,#f0db7a);
@@ -23,5 +23,23 @@
     height: 20px;
     display: inline-block;
     margin-left: 5px;
-    align-items: center;
+}
+
+.download-btn {
+    width: 235px;
+    height: 75px;
+}
+
+.download-icon  {
+    height: 35px;
+    /* display: inline-block; */
+    /* margin-left: 5px; */
+}
+
+.download-btn:hover{
+    width: 250px;
+    height: 100px;
+    transition: .3s;
+    border-radius: 15px;
+
 }

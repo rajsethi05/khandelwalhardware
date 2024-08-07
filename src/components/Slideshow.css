@@ -17,15 +17,30 @@
   }
   
   /* Buttons */
-  .slideshowDots {
+  .slideshowDots1 {
     text-align: center;
     width: 100px;
-    position: absolute;
-    bottom: 15;
+    position:relative;
+    /* bottom: 15; */
     left: 50%;
     margin-left: -50px;
     z-index: 1;
+    /* margin-top: 90px; */
   }
+
+  .slideshowDots{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; /* Ensure the overlay is on top */
+    display: flex;
+    justify-content: center;
+    align-items:end;
+    color: black;
+  }
+
   
   .slideshowDot {
     display: inline-block;

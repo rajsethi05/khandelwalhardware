@@ -1,6 +1,5 @@
 // Filename - App.js
 import React from "react";
-import Header from "./components/Header";
 import Bathtubs from "./pages/bath_tubs";
 import {
 	HashRouter,
@@ -14,7 +13,7 @@ function App() {
 		<HashRouter>
 			<Routes>
 				<Route exact path="/" element={<Home />} />
-				<Route exact path="/bathtubs" element={<Bathtubs />} />
+				<Route exact path="/products" element={<Bathtubs />} />
 			</Routes>
 		</HashRouter>
 	);

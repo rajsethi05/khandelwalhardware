@@ -3,43 +3,48 @@
     "src": "categories/bath_tubs.png",
     "title": "Bath Tubs",
     "desc": "Are you ready to transform your bathroom? We offer modern, smart and stylish bathtub products with focus on comfort, sophistication, hygiene and durability.",
-    "page": "/bathtubs"
+    "page": "bathtubs"
   },
   {
     "src": "categories/cisterns.jpeg",
     "title": "Cisterns",
     "desc": "Hindware’s cistern collection offers you the best-in-class products that match your needs. Explore our range of cisterns or water closets to find something that suits your requirements.",
-    "page": "www.facebook.com"
+    "page": "cisterns"
   },
   {
     "src": "categories/faucets.jpg",
     "title": "Faucets",
     "desc": "Hindware Faucets and bathroom taps bring elegance to your bathroom. Choose from various designs and finishes to achieve that perfect look for your bathroom. Indulge in carefully curated design themed collections for your unique taste such as Glamour, Geometry, Urban and Neo Classic collections.",
-    "page": "www.hello.com"
+    "page": "faucets"
   },
   {
     "src": "categories/shower_enclosures.jpeg",
     "title": "Shower Enclosures",
-    "desc": "Brighten up your bathroom with stylish, contemporary bathroom design ideas and create your own special space. Browse our collection of shower enclosures to find your perfect match."
+    "desc": "Brighten up your bathroom with stylish, contemporary bathroom design ideas and create your own special space. Browse our collection of shower enclosures to find your perfect match.",
+    "page": "shower_enclosures"
   },
   {
     "src": "categories/showers.jpeg",
     "title": "Showers",
-    "desc": "Hindware, without a doubt, is one of India's top manufacturers of bathroom showers. And, the best part is that you can go through a wide selection of our opulent shower units. So, wait no more and have a look at some of our luxury bathroom shower designs."
+    "desc": "Hindware, without a doubt, is one of India's top manufacturers of bathroom showers. And, the best part is that you can go through a wide selection of our opulent shower units. So, wait no more and have a look at some of our luxury bathroom shower designs.",
+    "page": "showers"
   },
   {
     "src": "categories/urinals.jpg",
     "title": "Urinals",
-    "desc": "At Hindware, technology and innovation go hand-in-hand to create aqua-free and hygienic urinals. Browse our collection to find the perfect fit."
+    "desc": "At Hindware, technology and innovation go hand-in-hand to create aqua-free and hygienic urinals. Browse our collection to find the perfect fit.",
+    "page": "urinals"
   },
   {
     "src": "categories/wash_basins.jpg",
     "title": "Wash Basins",
-    "desc": "Choosing the best basin for your bathroom can be an uphill task, especially with our wide range of products. With our wide range of basins, now you can choose something that fits your requirements and needs to perfection."
+    "desc": "Choosing the best basin for your bathroom can be an uphill task, especially with our wide range of products. With our wide range of basins, now you can choose something that fits your requirements and needs to perfection.",
+    "page": "wash_basins"
   },
   {
     "src": "categories/water_closets.jpg",
     "title": "Water Closets",
-    "desc": "Hindware’s water closet and commode collection features high-end quality products, such as intelligent water closets, wall-mounted closets, coupled closets, extended closets, one-piece closets that offer a variety of benefits which include space-saving designs, slow-falling seat covers, feet touch flush, warm seat, 3D massage & oscillating cleanse and much more."
+    "desc": "Hindware’s water closet and commode collection features high-end quality products, such as intelligent water closets, wall-mounted closets, coupled closets, extended closets, one-piece closets that offer a variety of benefits which include space-saving designs, slow-falling seat covers, feet touch flush, warm seat, 3D massage & oscillating cleanse and much more.",
+    "page": "water_closets"
   }
 ]
