@@ -3,7 +3,7 @@
     position: fixed;
     z-index: 1;
     width: 100%;
-    padding: 5px;
+    padding: 0.5rem;
     top: 0;
 }
 .flex-container {
@@ -33,10 +33,23 @@
 
 .navs{
     display: flex;
-    align-items: end;
+    flex-direction: row;
     margin-left: 275px;
-
 }
+
+
+/* @media only screen and (max-width: 400){
+    .navs{
+        margin-left: 0;
+    }
+} */
+
+/* 
+@media(max-width=600px){
+    .navs{
+        margin-left: 15px;
+    }
+} */
 
 .nav-item{
     display: flex;
