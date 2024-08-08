@@ -49,7 +49,6 @@ function Slideshow() {
 
 
     </div>
-    // <div>Hello</div>
 
   );
 }

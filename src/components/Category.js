@@ -9,13 +9,13 @@ export default function Categories() {
     return (
         <div>
             <img className="heading" src="icons/hindware.png" alt="hindware"></img>
-            <div className="line" key="" />
+            <div className="line" key="1" />
             <div>
                 {data.map((item, idx) => (
-                    <Link className="category" to='/products' state={{ prod_name: item.page }}>
-                        <img src={item.src} alt={idx} key={idx} className="img" />
-                        <h3 className="txt">{item.title}</h3>
-                        <p className="txt">{item.desc}</p>
+                    <Link className="category" key={idx} to='/products' state={{ prod_name: item.page }}>
+                        <img src={item.src} alt={idx} key={'img-{idx}'} className="img" />
+                        <h3 className="txt" key={'h3-{idx}'}>{item.title}</h3>
+                        <p className="txt" key={'p-{idx}'}>{item.desc}</p>
                     </Link>
                 ))}
             </div>
