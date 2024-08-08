@@ -6,9 +6,6 @@
     padding: 0.5rem;
     top: 0;
 }
-.flex-container {
-    display: flex;
-}
 
 .brand{
     color: #a6a6a6;
@@ -22,13 +19,20 @@
 }
 .sub-brand{
     font-size: 15px;
-    margin-top: 0px;
-    margin-left: 150px;
 }
 .logo{
     height: 40px;
     margin-left: 10px;
     margin-top: 7px;
+}
+
+.header-container{
+    display: flex;
+}
+
+.sub-container{
+    display: flex;
+    flex-direction: row;
 }
 
 .navs{
@@ -37,18 +41,17 @@
     margin-left: 250px;
 }
 
-/* @media only screen and (max-width: 400){
-    .navs{
-        margin-left: 0;
-    }
-} */
+.sub-container-mob{
+    display: flex;
+    flex-direction: column;
+}
 
-/* 
-@media(max-width=600px){
-    .navs{
-        margin-left: 15px;
-    }
-} */
+.navs-mob{
+    display: flex;
+    flex-direction: row;
+    margin-left: -10px;
+}
+
 
 .nav-item{
     display: flex;

@@ -36,10 +36,3 @@
     /* margin-left: 5px; */
 }
 
-.download-btn:hover{
-    width: 250px;
-    height: 100px;
-    transition: .3s;
-    border-radius: 15px;
-
-}

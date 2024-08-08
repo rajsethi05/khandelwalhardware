@@ -37,7 +37,7 @@
     z-index: 1; /* Ensure the overlay is on top */
     display: flex;
     justify-content: center;
-    align-items:end;
+    align-items:flex-end;
     color: black;
   }
 
