@@ -5,7 +5,9 @@ import { useMediaQuery } from "react-responsive";
 function Header() {
 
   const navigationIcons = ["icons/phone.svg", "icons/whatsapp-1.svg", "icons/location.svg"]
-  const navLinks = ["tel:+91 9962049900", "https://wa.me/+919962049900?text=Hi", "https://maps.app.goo.gl/kjJqxsXxRSGyafvJ6"]
+  const navLinks = ["tel:+91 9962049900",
+    "https://wa.me/+919962049900?text=Hi",
+    "https://maps.app.goo.gl/kjJqxsXxRSGyafvJ6"]
   const navTexts = ["+91-9962049900", "+91-9962049900", "Locate Us"]
 
 
