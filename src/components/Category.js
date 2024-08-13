@@ -12,7 +12,7 @@ export default function Categories() {
             <div className="line" key="1" />
             <div>
                 {data.map((item, idx) => (
-                    <Link className="category" key={idx} to='/products' state={{ prod_name: item.page }}>
+                    <Link className="category" key={idx} to='/products' state={{ prod_name: item.page }} onClick={window.scrollTo(0, 0)}>
                         <img src={item.src} alt={idx} key={'img-{idx}'} className="img" />
                         <h3 className="txt" key={'h3-{idx}'}>{item.title}</h3>
                         <p className="txt" key={'p-{idx}'}>{item.desc}</p>
@@ -26,6 +26,6 @@ export default function Categories() {
                     </button>
                 </a>
             </div>
-        </div>
+        </div >
     )
 }

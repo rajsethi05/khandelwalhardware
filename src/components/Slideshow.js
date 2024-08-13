@@ -31,13 +31,13 @@ function Slideshow() {
 
   return (
     <div className="slideshow-container">
-      <div className="slideshowDots slideshow-container">
+      {/* <div className="slideshowDots slideshow-container">
         {
           images.map((_, idx) => (
             <div key={idx} className={`slideshowDot ${index === idx ? "active" : ""} `} onClick={() => setIndex(idx)}></div>
           ))
         }
-      </div>
+      </div> */}
       <div className="slideshowSlider"
         style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
       >
