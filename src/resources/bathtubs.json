@@ -1,50 +1,42 @@
 [
   {
-    "heading_pic": "",
+    "heading_pic": "products/bathtubs/bathtube_header.jpg",
     "products": [
       {
-        "prod1": {
-          "pic": "",
-          "name": "Hindware Strauss Bathtub",
-          "price": "27,390",
-          "link": "https://hindware.com/product/straussn-bathtub/",
-          "qr": ""
-        },
-        "prod2": {
-          "pic": "",
-          "name": "Trendy Bathtub",
-          "price": "15,590",
-          "link": "https://hindware.com/product/trendy-bathtub/",
-          "qr": ""
-        },
-        "prod3": {
-          "pic": "",
-          "name": "Vantage Bathtub",
-          "price": "39,950",
-          "link": "https://hindware.com/product/vantage-n-bathtub/",
-          "qr": ""
-        },
-        "prod4": {
-          "pic": "",
-          "name": "Marina Plus Bathtub",
-          "price": "14,960",
-          "link": "https://hindware.com/product/marina-plus-bathtub/",
-          "qr": ""
-        },
-        "prod5": {
-          "pic": "",
-          "name": "Hindware Marina Bathtub",
-          "price": "14,460",
-          "link": "https://hindware.com/product/marina-bathtub/",
-          "qr": ""
-        },
-        "prod6": {
-          "pic": "",
-          "name": "Trendy Plus Bathtub",
-          "price": "16,210",
-          "link": "https://hindware.com/product/trendy-plus-2-bathtub/",
-          "qr": ""
-        }
+        "pic": "products/bathtubs/Hindware_Marina_Bathtub.jpg",
+        "name": "Hindware Strauss Bathtub",
+        "price": "27,390",
+        "link": "https://hindware.com/product/straussn-bathtub/"
+      },
+      {
+        "pic": "products/bathtubs/Trendy_Bathtub.jpg",
+        "name": "Trendy Bathtub",
+        "price": "15,590",
+        "link": "https://hindware.com/product/trendy-bathtub/"
+      },
+      {
+        "pic": "products/bathtubs/Vantage_Bathtub.jpg",
+        "name": "Vantage Bathtub",
+        "price": "39,950",
+        "link": "https://hindware.com/product/vantage-n-bathtub/"
+      },
+      {
+        "pic": "products/bathtubs/Marina_Plus_Bathtub.jpg",
+        "name": "Marina Plus Bathtub",
+        "price": "14,960",
+        "link": "https://hindware.com/product/marina-plus-bathtub/"
+      },
+      {
+        "pic": "products/bathtubs/Hindware_Marina_Bathtub.jpg",
+        "name": "Hindware Marina Bathtub",
+        "price": "14,460",
+        "link": "https://hindware.com/product/marina-bathtub/"
+      },
+      {
+        "pic": "products/bathtubs/Trendy_Plus_Bathtub.jpg",
+        "name": "Trendy Plus Bathtub",
+        "price": "16,210",
+        "link": "https://hindware.com/product/trendy-plus-2-bathtub/"
       }
     ]
   }
