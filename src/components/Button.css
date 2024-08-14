@@ -26,9 +26,12 @@
 }
 
 .download-btn {
-    width: 235px;
-    height: 75px;
+    width: 250px;
+    height: 80px;
+    text-align: left;
+    padding: 10px;
 }
+
 
 .download-icon  {
     height: 35px;

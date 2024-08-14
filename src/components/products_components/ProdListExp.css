@@ -1,0 +1,63 @@
+.prod_new{
+    /* padding: 5rem; */
+    margin: 3rem;
+    width: 15rem;
+    height: 20rem;
+    /* background-color:#a6a6a6; */
+    display:inline-block;
+    justify-content:center;
+    align-items:start;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 50px #a6a6a6;
+    opacity: 0; /* Initially invisible */
+    animation: dissolveIn 5s forwards;
+}
+
+@keyframes dissolveIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.prod_new:hover{
+    box-shadow: 0 0 50px #f0db7a;
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+    
+}
+
+.prod-image_new{
+    width: 100%; /* Ensure the image fits the width of the box */
+    height: 80%; /* Maintain the aspect ratio */
+    display: block; /* Remove any gap below the image */
+    object-fit: cover; /* Cover the entire box if image aspect ratio is different */
+    position: absolute; /* Align image to the top */
+    top: 0; /* Start the image from the top */
+    left: 0; /* Align the image to the left (optional) */
+}
+
+.prod-title_new{
+    /* align-items: flex-start; */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 1rem;
+    /* color: black; */
+    color: #a6a6a6;
+    display: inline-flex;
+    font-weight: 1000;
+    font-size: large;
+    vertical-align: top;
+}
+.arrow-icon{
+    height: 1.5rem;
+    margin-left: 2rem;
+    /* margin-top: 1rem; */
+    /* display: block; */
+}
+
+

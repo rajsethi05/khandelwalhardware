@@ -2,6 +2,7 @@ import React from "react";
 import "./Category.css";
 import data from "../resources/categories.json"
 import { Link } from "react-router-dom";
+import CatalogueButton from "./CatalogueButton";
 
 export default function Categories() {
 
@@ -18,13 +19,14 @@ export default function Categories() {
                     </Link>
                 ))}
             </div>
-            <div className="btn-div">
+            <CatalogueButton btnName="Full" />
+            {/* <div className="btn-div">
                 <a href='documents\\Full_Catalogue.pdf' download="Full_Catalogue.pdf">
                     <button className="video-button download-btn">Download Full Catalogue
                         <img src="icons\cloud_down.svg" alt="play" className="download-icon"></img>
                     </button>
                 </a>
-            </div>
+            </div> */}
         </div >
     )
 }
