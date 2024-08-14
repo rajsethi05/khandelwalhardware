@@ -3,8 +3,11 @@ import { useLocation } from "react-router-dom";
 import "../components/products_components/products.css";
 import Header from "../components/Header";
 import ScrollToTop from "../components/ScrollToTop";
-import ProductList from "../components/products_components/ProductLists";
-function Products() {
+import ProductList from "../components/products_components/ProductList";
+import ProductBanner from "../components/products_components/ProductBanner";
+import CatalogueButton from "../components/CatalogueButton";
+
+export default function Products() {
 
     const location = useLocation();
 
@@ -13,13 +16,9 @@ function Products() {
         <>
             <Header />
             <ScrollToTop />
-            <div className="container">
-                < img src="products\bathtubs\bathtube_header.jpg" className="image" ></img >
-                <h1 className="text-overlay txt">BATHTUBS</h1>
-            </div>
+            <ProductBanner />
             <ProductList />
+            <CatalogueButton btnName={location.state.prod_name} />
         </>
     )
 }
-
-export default Products
