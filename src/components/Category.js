@@ -2,7 +2,6 @@ import React from "react";
 import "./Category.css";
 import data from "../resources/categories.json"
 import { Link } from "react-router-dom";
-// import "./Video.css";
 
 export default function Categories() {
 
