@@ -1,5 +1,5 @@
 import React from "react";
-import "./ProdListExp.css";
+import "./ProductList.css";
 import products from "../../resources/bathtubs.json"
 
 export default function ProdListExp() {

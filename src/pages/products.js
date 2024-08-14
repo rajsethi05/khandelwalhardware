@@ -3,9 +3,8 @@ import { useLocation } from "react-router-dom";
 import "../components/products_components/products.css";
 import Header from "../components/Header";
 import ScrollToTop from "../components/ScrollToTop";
-// import ProductList from "../components/products_components/ProductLists";
+import ProductList from "../components/products_components/ProductList";
 import ProductBanner from "../components/products_components/ProductBanner";
-import ProdListExp from "../components/products_components/ProdListExp";
 import CatalogueButton from "../components/CatalogueButton";
 
 export default function Products() {
@@ -18,7 +17,7 @@ export default function Products() {
             <Header />
             <ScrollToTop />
             <ProductBanner />
-            <ProdListExp />
+            <ProductList />
             <CatalogueButton btnName={location.state.prod_name} />
         </>
     )
