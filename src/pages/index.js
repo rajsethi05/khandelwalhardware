@@ -1,5 +1,3 @@
-// Filename - pages/index.js
-
 import React from "react";
 import Slideshow from "../components/Slideshow";
 import Video from "../components/Video";
@@ -9,10 +7,10 @@ import Header from "../components/Header";
 function Home() {
 	return (
 		<>
-		<Header />
-            <Slideshow/>
-			<Video/>
-			<Categories/>
+			<Header />
+			<Slideshow />
+			<Video />
+			<Categories />
 		</>
 	)
 }

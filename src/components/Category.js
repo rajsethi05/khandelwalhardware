@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 import CatalogueButton from "./CatalogueButton";
 
 export default function Categories() {
-
     return (
         <div>
             <img className="heading" src="icons/hindware.png" alt="hindware"></img>
@@ -20,13 +19,6 @@ export default function Categories() {
                 ))}
             </div>
             <CatalogueButton btnName="Full" />
-            {/* <div className="btn-div">
-                <a href='documents\\Full_Catalogue.pdf' download="Full_Catalogue.pdf">
-                    <button className="video-button download-btn">Download Full Catalogue
-                        <img src="icons\cloud_down.svg" alt="play" className="download-icon"></img>
-                    </button>
-                </a>
-            </div> */}
         </div >
     )
 }
