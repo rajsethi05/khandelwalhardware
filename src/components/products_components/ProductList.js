@@ -1,10 +1,13 @@
 import React from "react";
 import "./ProductList.css";
-import products from "../../resources/bathtubs.json"
 
-export default function ProdListExp() {
+const ProductList = ({ prodname }) => {
+    const products = prodname;
+
+
     return (
         <>
+            {/* {(prodname) => (console.log("pp:", prodname[0]))} */}
             <div className="prods-container">
                 {
                     products[0].products.map((prod, idx) => (
@@ -20,3 +23,4 @@ export default function ProdListExp() {
         </>
     )
 }
+export default ProductList

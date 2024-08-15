@@ -1,16 +1,15 @@
 import React from "react";
-import { useLocation } from "react-router-dom";
 
 
-export default function ProductBanner() {
-    const location = useLocation();
-    const prodName = location.state.prod_name;
-    console.log(prodName);
+const ProductBanner = ({ prodname }) => {
+    prodname = prodname[0];
 
     return (
         <div className="container">
-            < img src="products\bathtubs\bathtube_header.jpg" className="image" alt="jsx-a11y/alt-text" ></img >
-            <h1 className="text-overlay txt">BATHTUBS</h1>
+            < img src={prodname.heading_pic} className="image" alt="jsx-a11y/alt-text" ></img >
+            <h1 className="text-overlay txt">{prodname.prod_name}</h1>
         </div>
     )
 }
+
+export default ProductBanner;
