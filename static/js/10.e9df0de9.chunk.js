@@ -1,0 +1,2 @@
+(this["webpackJsonppy-react-ex"]=this["webpackJsonppy-react-ex"]||[]).push([[10],{42:function(n){!function(){var n=new Error("Cannot find module './wash_basins.json'");throw n.code="MODULE_NOT_FOUND",n}()}}]);
+//# sourceMappingURL=10.e9df0de9.chunk.js.map

@@ -1,0 +1,2 @@
+(this["webpackJsonppy-react-ex"]=this["webpackJsonppy-react-ex"]||[]).push([[6],{38:function(e){e.exports=JSON.parse('[{"bathtubs":[{"heading":"","products":[{"prod1":{"pic":"","name":"","price":"","link":"","qr":""},"prod2":{"pic":"","name":"","price":"","link":"","qr":""},"prod3":{"pic":"","name":"","price":"","link":"","qr":""},"prod4":{"pic":"","name":"","price":"","link":"","qr":""}}]}]},{"cisterns":[]},{"faucets":[]},{"shower_enclosures":[]},{"showers":[]},{"urinals":[]},{"wash_basins":[]},{"water_closets":[]}]')}}]);
+//# sourceMappingURL=6.01c6a2b1.chunk.js.map
