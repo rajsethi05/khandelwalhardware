@@ -6,8 +6,8 @@ const CatalogueButton = ({ btnName }) => {
         word.slice(1)).join(" ");
     return (
         <div className="btn-div">
-            <a href={`documents/${btnName}_Catalogue.pdf`} download={`${btnName}_Catalogue.pdf`}>
-                <button className="video-button download-btn">Download {btnName} Catalogue
+            <a href={`documents/${btnName}_Catalogue.pdf`} download={`${btnName} Catalogue.pdf`}>
+                <button className="video-button download-btn">{btnName} Catalogue
                     <img src="icons\cloud_down.svg" alt="play" className="download-icon"></img>
                 </button>
             </a>

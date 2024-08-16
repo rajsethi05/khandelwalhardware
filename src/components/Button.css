@@ -1,5 +1,6 @@
 .btn-div{
     text-align: center;
+    /* justify-content: center; */
     padding: 20px;
 }
 .video-button{
@@ -26,16 +27,15 @@
 }
 
 .download-btn {
-    width: 250px;
+    width: 225;
     height: 80px;
     text-align: left;
     padding: 10px;
+    gap: 2rem;
 }
 
 
 .download-icon  {
     height: 35px;
-    /* display: inline-block; */
-    /* margin-left: 5px; */
 }
 

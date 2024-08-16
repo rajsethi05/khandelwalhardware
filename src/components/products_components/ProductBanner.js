@@ -2,7 +2,6 @@ import React from "react";
 
 
 const ProductBanner = ({ prodname }) => {
-    prodname = prodname[0];
 
     return (
         <div className="container">

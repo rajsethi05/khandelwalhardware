@@ -6,6 +6,7 @@ import ScrollToTop from "../components/ScrollToTop";
 import ProductList from "../components/products_components/ProductList";
 import ProductBanner from "../components/products_components/ProductBanner";
 import CatalogueButton from "../components/CatalogueButton";
+import AllProducts from "../components/products_components/AllProducts";
 
 export default function Products() {
 
@@ -32,15 +33,14 @@ export default function Products() {
 
 
     return (
-        // <h1 style={{ color: "#a6a6a6" }}>{location.state.prod_name}</h1>
         <>
-            {/* {console.log("this executed: ", location.state.prod_name)}
-            {console.log("here is the data: ", data)} */}
             <Header />
             <ScrollToTop />
             {data && <ProductBanner prodname={data} />}
             {data && <ProductList prodname={data} />}
+            {data && data.more_link && < AllProducts prodname={data} />}
             <CatalogueButton btnName={location.state.prod_name} />
+
         </>
     )
 }
