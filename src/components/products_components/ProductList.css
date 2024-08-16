@@ -41,17 +41,16 @@
 }
 
 .prod-title_new{
-    /* align-items: flex-start; */
     position: absolute;
     bottom: 0;
     left: 0;
     margin: 1rem;
-    /* color: black; */
     color: #a6a6a6;
     display: inline-flex;
-    font-weight: 1000;
+    font-weight: 600;
     font-size: large;
     vertical-align: top;
+    font-family: 'Poppins', sans-serif;
 }
 .arrow-icon{
     height: 1.5rem;

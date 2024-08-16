@@ -85,6 +85,8 @@
 .all-prods:hover{
     text-decoration: underline;
     text-decoration-color: #a6a6a6;
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
 }
 
 .all-prod-arrow{
