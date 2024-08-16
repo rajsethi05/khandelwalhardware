@@ -5,10 +5,10 @@ import { useMediaQuery } from "react-responsive";
 export default function Header() {
 
   const navigationIcons = ["icons/phone.svg", "icons/whatsapp-1.svg", "icons/location.svg"]
-  const navLinks = ["tel:+91 9962049900",
-    "https://wa.me/+919962049900?text=Hi",
+  const navLinks = ["tel:+91 9302575111",
+    "https://wa.me/+919302575111?text=Hi",
     "https://maps.app.goo.gl/kjJqxsXxRSGyafvJ6"]
-  const navTexts = ["+91-9962049900", "+91-9962049900", "Locate Us"]
+  const navTexts = ["Contact Us", "Text Us", "Locate Us"]
 
 
   const isLaptop = useMediaQuery({ query: '(min-width:1224px)' })
