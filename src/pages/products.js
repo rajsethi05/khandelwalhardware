@@ -40,7 +40,6 @@ export default function Products() {
             {data && <ProductList prodname={data} />}
             {data && data.more_link && < AllProducts prodname={data} />}
             <CatalogueButton btnName={location.state.prod_name} />
-
         </>
     )
 }
