@@ -5,8 +5,8 @@ const ProductBanner = ({ prodname }) => {
 
     return (
         <div className="container">
-            < img src={prodname.heading_pic} className="image" alt="jsx-a11y/alt-text" ></img >
-            <h1 className="text-overlay txt">{prodname.prod_name}</h1>
+            < img src={prodname.heading_pic} className="prod-banner-image" alt="jsx-a11y/alt-text" ></img >
+            <div className="text-overlay"><span className="txt">{prodname.prod_name}</span></div>
         </div>
     )
 }
