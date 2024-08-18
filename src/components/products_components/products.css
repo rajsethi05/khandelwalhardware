@@ -36,8 +36,6 @@
     display: flex;
     border-top-right-radius: 5rem;
     border-bottom-right-radius: 5rem;
-    /* border-radius: 3rem; */
-    /* text-align: right; */
 }
 .prod-container:hover{
     box-shadow: 0 0 30px #f0db7a
