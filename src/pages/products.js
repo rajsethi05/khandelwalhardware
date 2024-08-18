@@ -7,7 +7,7 @@ import ProductList from "../components/products_components/ProductList";
 import ProductBanner from "../components/products_components/ProductBanner";
 import CatalogueButton from "../components/CatalogueButton";
 import AllProducts from "../components/products_components/AllProducts";
-
+import Footer from "../components/Footer";
 export default function Products() {
 
     const location = useLocation();
@@ -40,6 +40,7 @@ export default function Products() {
             {data && <ProductList prodname={data} />}
             {data && data.more_link && < AllProducts prodname={data} />}
             <CatalogueButton btnName={location.state.prod_name} />
+            <Footer />
         </>
     )
 }

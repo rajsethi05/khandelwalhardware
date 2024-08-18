@@ -3,6 +3,7 @@ import Slideshow from "../components/Slideshow";
 import Video from "../components/Video";
 import Categories from "../components/Category"
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 function Home() {
 	return (
@@ -11,6 +12,7 @@ function Home() {
 			<Slideshow />
 			<Video />
 			<Categories />
+			<Footer />
 		</>
 	)
 }
