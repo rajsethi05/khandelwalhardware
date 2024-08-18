@@ -4,11 +4,12 @@ import { useMediaQuery } from "react-responsive";
 
 export default function Header() {
 
-  const navigationIcons = ["icons/phone.svg", "icons/whatsapp-1.svg", "icons/location.svg"]
+  const navigationIcons = ["icons/phone.svg", "icons/whatsapp-1.svg", "icons/location.svg", "icons/instagram.svg"]
   const navLinks = ["tel:+91 9302575111",
     "https://wa.me/+919302575111?text=Hi",
-    "https://maps.app.goo.gl/kjJqxsXxRSGyafvJ6"]
-  const navTexts = ["Contact Us", "Text Us", "Locate Us"]
+    "https://maps.app.goo.gl/kjJqxsXxRSGyafvJ6",
+    "https://www.instagram.com/khandelwal_hardware?utm_source=qr&igsh=MWt3djFldG1zbjcwNA=="]
+  const navTexts = ["Contact Us", "Text Us", "Locate Us", "Follow Us"]
 
 
   const isLaptop = useMediaQuery({ query: '(min-width:1224px)' })

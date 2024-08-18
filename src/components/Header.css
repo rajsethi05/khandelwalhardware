@@ -38,8 +38,8 @@
 .navs{
     display: flex;
     flex-direction: row;
-    margin-left: 20rem;
-    gap: 2rem;
+    margin-left: 25rem;
+    gap: 1.5rem;
     
 }
 
@@ -88,14 +88,14 @@
 }
 
 .icons {
-    width: 1.25rem;
+    width: 1rem;
     height: auto;              
 }
 
 .icon-text {
     text-decoration: none;       
     color: #a6a6a6;             
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
     /* font-family: Arial, Helvetica, sans-serif */
